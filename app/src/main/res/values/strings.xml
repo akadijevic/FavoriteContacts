@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FavoriteContacts</string>
+     <string name="contacts_names">
+        <item>Denisa Lalikova</item>
+        <item>Kassidy Westroom</item>
+        <item>Abigail Sawyer</item>
+    </string>
+    <string name="contacts_number">
+        <item>2186939286</item>
+        <item>7362699334</item>
+        <item>5074754267</item>
+    </string>
+</resources>

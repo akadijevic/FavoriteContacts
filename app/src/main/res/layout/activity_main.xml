@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="css.cis3334.favoritecontacts.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Denisa \nLalikova"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1a"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:text="2186939286"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2a"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1Call"
+            android:layout_weight="1"
+            android:onClick="onClick" />
+
+        <Button
+            android:text="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1Text"
+            android:layout_weight="1"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Kassidy \nWestroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1b"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:text="7362699334"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2b"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2Call"
+            android:layout_weight="1"
+            android:onClick="onClick" />
+
+        <Button
+            android:text="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2Text"
+            android:layout_weight="1"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Abigail \nSawyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1c"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:text="5074754267"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2c"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3Call"
+            android:layout_weight="1"
+            android:onClick="onClick" />
+
+        <Button
+            android:text="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3Text"
+            android:layout_weight="1"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+</LinearLayout>
